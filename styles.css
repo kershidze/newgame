@@ -1,0 +1,41 @@
+.game
+{
+	margin-left: auto;
+	margin-right: auto;
+	width:400px;
+}
+.panel
+{
+	background:#eef;
+	border:4px double black;
+	width:400px;
+	height:400px;
+	position:relative;
+}
+
+.target
+{
+	background:url(images/target.gif);
+	background-size:cover;
+	width:60px;
+	height:60px;
+	position:absolute;
+	border-radius:31px;
+	
+}
+.target[status=broken1]
+{
+	background-image:url(images/target-broken-1.gif);
+}
+
+.target[status=broken2]
+{
+	background-image:url(images/target-broken-2.gif);
+}
+.score-box.finished
+{
+text-align:centr;
+margin-top:200px;
+font-size:30px;
+font-family:Comic Sans MS;
+}
